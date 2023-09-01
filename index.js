@@ -60,7 +60,9 @@ Obs: Lembrando que este 'error' é apenas uma representação, no console terá 
 
 /*
 Resposta C:
-A variável 'mensagem' (let mensagem = "Essa mensagem é secreta!!") está armazenada dentro do 'if' como um resultado para uma condição preenchida, portanto esta variável está no escopo local, não podendo ser utilizada por elementos fora deste escopo, diferente do escopo global (que foi o caso da varíavel da primeira linha: 'const numero = Number(prompt("Digite o primeiro número."))')
+A variável 'mensagem' (let mensagem = "Essa mensagem é secreta!!") está armazenada dentro do 'if' como um resultado para uma condição preenchida, 
+portanto esta variável está no escopo local, não podendo ser utilizada por elementos fora deste escopo, diferente do escopo global 
+(que foi o caso da varíavel da primeira linha: 'const numero = Number(prompt("Digite o primeiro número."))')
 */
 
 
@@ -193,6 +195,8 @@ console.log(`Aproveite a sua pipoca ${lanchinhoFilme}`);
 // Desafio 2
 /*
 Resposta:
+*/
+
 const nomeCompletoPergunta = prompt("Insira o seu nome completo:");
 const nomeCompleto = nomeCompletoPergunta;
 const tipoDeJogoPergunta = prompt("Qual o tipo de jogo? (IN ou DO));
@@ -235,14 +239,55 @@ if (tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoriaDoJogo === 4) {
           const resultadoDois = quantidadeDeIngressos * 550;
           console.log(resultadoDois);
          } else {
-          if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoriaDoJogo === 3) {
+          if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoriaDoJogo === 2) {
            const resultadoTres = quantidadeDeIgressos * 880;
            console.log(resultadoTres);
           } else {
            if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoriaDoJogo === 1) {
             const resultadoQuatro = quantidadeDeIngressos * 1320;
             console.log(resultadoQuatro);
+           } else {
+            if (tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoriaDoJogo === 4) {
+             const resultado = quantidadeDeIgressos * 170;
+            console.log(resultado);
+            } else {
+            if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoriaDoJogo === 4) {
+             const resultadoDois = quantidadeDeIngressos * 220;
+             console.log(resultadoDois);
+           } else {
+             if (tipoDeJogo === "DO" && etapaDoJogo === "FI" && categoriaDoJogo === 4) {
+               const resultadoTres = quantidadeDeIgressos * 330;
+              console.log(resultadoTres);
+            } else {
+             if (tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoriaDoJogo === 3) {
+             const resultadoQuatro = quantidadeDeIngressos * 330;
+            console.log(resultadoQuatro);
+            } else {
+              if (tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoriaDoJogo === 2) {
+               const resultadoCinco = quantidadeDeIngressos * 440;
+               console.log(resultadoCinco);
+              } else {
+               if (tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoriaDoJogo === 1) {
+               const resultadoSeis = quantidadeDeIgressos *660;
+               console.log(resultadoSeis);
+              } else {
+               if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoriaDoJogo === 3) {
+                 const resultadoDois = quantidadeDeIngressos * 550;
+                 console.log(resultadoDois);
+                } else {
+                 if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoriaDoJogo === 2) {
+                 const resultadoTres = quantidadeDeIgressos * 880;
+                 console.log(resultadoTres);
+                } else {
+                 if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoriaDoJogo === 1) {
+                 const resultadoQuatro = quantidadeDeIngressos * 1320;
+                 console.log(resultadoQuatro);
+                 }
+               }
+             }
            }
-}
-}
-*/
+         }
+       }
+     }
+   }
+ }
