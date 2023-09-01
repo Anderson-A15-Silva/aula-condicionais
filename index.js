@@ -29,8 +29,12 @@ O preço da fruta Maçã é R$ 2.25
 */
 
 /*
-Resposta C (Inconclusivo)
+Resposta C:
+ ------------------------------------
+ O  preço da fruta  Pêra  é  R$  5
+ ------------------------------------
 
+ Ou seja, ele continuaria a exibir sem a 'quebra' de uma condição para a outra.
 */
 
 // Exercício 3
@@ -45,7 +49,6 @@ Resposta B
 Se o número inserido no prompt for '10', o resultado exibido será este:
 -------------------------------------------
   Esse número passou no teste
-  O  preço da fruta  Pêra  é  R$  5
   error
 -------------------------------------------
 Obs: O erro ocorreu devido a variável mensagem ter sido colocada em um escopo local dentro do 'if' (Mais informações na Resposta C). 
@@ -85,10 +88,11 @@ console.log("Você não pode dirigir.");
 };
 
 Resultado Final:
+
 const idadePergunta = prompt("Qual a sua idade?");
 const idadeUsuario = Number(idadePergunta);
 
-if (idadeUuario >= 18) {
+if (idadeUsuario >= 18) {
 console.log("Você pode dirigir");
 } else {
 console.log("Você não pode dirigir.");
@@ -99,6 +103,7 @@ console.log("Você não pode dirigir.");
 // Exercício 2
 /*
 Resposta:
+
 const turnoPergunta = prompt("Qual o seu turno? (M, V ou N)");
 const turnoUsuario = turnoPergunta.toUpperCase();
 
@@ -120,6 +125,7 @@ console.log("Não encontrado.");
 // Exercício 3
 /*
 Resposta:
+
 const turnoPergunta = prompt("Qual o seu turno? (M, V ou N)");
 const turnoUsuario = turnoPergunta.toUpperCase();
 
@@ -142,11 +148,12 @@ switch (turnoUsuario) {
 // Exercício 4
 /*
 Resposta:
+
 const generoFilmePergunta = prompt("Qual o gênero do filme?");
 const generoFilme = generoFilmePergunta.toLowerCase();
 const precoIngressoPergunta = prompt("Quanto custa o ingresso?");
 const precoIngresso = Number(precoIngressoPergunta);
-const cinemaFilmePergunta = prompt("Seu amigo quer ver o filme? (Sim ou Não");
+const cinemaFilmePergunta = prompt("Seu amigo quer ver o filme? (Sim ou Não)");
 const cinemaFilme = cinemaFilmePergunta.toLowerCase();
 
 if (generoFilme !== "fantasia") {
@@ -192,10 +199,9 @@ console.log(`Aproveite a sua pipoca ${lanchinhoFilme}`);
 };
 */
 
-// Desafio 2
+// Desafio 2 (Incompleto)
 /*
 Resposta:
-*/
 
 const nomeCompletoPergunta = prompt("Insira o seu nome completo:");
 const nomeCompleto = nomeCompletoPergunta;
@@ -291,3 +297,4 @@ if (tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoriaDoJogo === 4) {
      }
    }
  }
+ */
