@@ -202,7 +202,6 @@ console.log(`Aproveite a sua pipoca ${lanchinhoFilme}`);
 // Desafio 2 (Incompleto)
 /*
 Resposta:
-*/
 
 const nomeCompletoPergunta = prompt("Insira o seu nome completo:");
 const nomeCompleto = nomeCompletoPergunta;
@@ -310,3 +309,4 @@ if (tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoriaDoJogo === 4) {
 }
   }
 }
+*/
