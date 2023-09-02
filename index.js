@@ -202,15 +202,20 @@ console.log(`Aproveite a sua pipoca ${lanchinhoFilme}`);
 // Desafio 2 (Incompleto)
 /*
 Resposta:
+*/
 
 const nomeCompletoPergunta = prompt("Insira o seu nome completo:");
 const nomeCompleto = nomeCompletoPergunta;
-const tipoDeJogoPergunta = prompt("Qual o tipo de jogo? (IN ou DO));
+
+const tipoDeJogoPergunta = prompt("Qual o tipo de jogo? (IN ou DO))");
 const tipoDeJogo = tipoDeJogoPergunta.toUpperCase();
-const etapaDoJogoPergunta = prompt("Qual a etapa do jogo? (FI, SF ou DT));
+
+const etapaDoJogoPergunta = prompt("Qual a etapa do jogo? (FI, SF ou DT))");
 const etapaDoJogo = etapaDoJogoPergunta.toUpperCase();
+
 const categoriaDoJogoPergunta = prompt("Qual a categoria do jogo?");
 const categoriaDoJogo = categoriaDoJogoPergunta;
+
 const quantidadeDeIngressosPergunta = prompt("Quantos ingressos você quer comprar?");
 const quantidadeDeIngressos = quantidadeDeIngressosPergunta;
 
@@ -233,7 +238,7 @@ if (tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoriaDoJogo === 4) {
       const resultadoQuatro = quantidadeDeIngressos * 330;
       console.log(resultadoQuatro);
       } else {
-       if tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoriaDoJogo === 2) {
+       if (tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoriaDoJogo === 2) {
         const resultadoCinco = quantidadeDeIngressos * 440;
         console.log(resultadoCinco);
        } else {
@@ -242,59 +247,66 @@ if (tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoriaDoJogo === 4) {
          console.log(resultadoSeis);
         } else {
          if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoriaDoJogo === 3) {
-          const resultadoDois = quantidadeDeIngressos * 550;
-          console.log(resultadoDois);
+          const resultadoSete = quantidadeDeIngressos * 550;
+          console.log(resultadoSete);
          } else {
           if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoriaDoJogo === 2) {
-           const resultadoTres = quantidadeDeIgressos * 880;
-           console.log(resultadoTres);
+           const resultadoOito = quantidadeDeIgressos * 880;
+           console.log(resultadoOito);
           } else {
            if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoriaDoJogo === 1) {
-            const resultadoQuatro = quantidadeDeIngressos * 1320;
-            console.log(resultadoQuatro);
+            const resultadoNove = quantidadeDeIngressos * 1320;
+            console.log(resultadoNove);
            } else {
-            if (tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoriaDoJogo === 4) {
-             const resultado = quantidadeDeIgressos * 170;
-            console.log(resultado);
+            if (tipoDeJogo === "IN" && etapaDoJogo === "DT" && categoriaDoJogo === 4) {
+             const resultadoDez = (quantidadeDeIngressos * 170) * 4.1;
+            console.log(resultadoDez);
             } else {
-            if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoriaDoJogo === 4) {
-             const resultadoDois = quantidadeDeIngressos * 220;
-             console.log(resultadoDois);
+            if (tipoDeJogo === "IN" && etapaDoJogo === "SF" && categoriaDoJogo === 4) {
+             const resultadoOnze = (quantidadeDeIngressos * 220) * 4.1;
+             console.log(resultadoOnze);
            } else {
-             if (tipoDeJogo === "DO" && etapaDoJogo === "FI" && categoriaDoJogo === 4) {
-               const resultadoTres = quantidadeDeIgressos * 330;
-              console.log(resultadoTres);
+             if (tipoDeJogo === "IN" && etapaDoJogo === "FI" && categoriaDoJogo === 4) {
+               const resultadoDoze = (quantidadeDeIngressos * 330) * 4.1;
+              console.log(resultadoDoze);
             } else {
-             if (tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoriaDoJogo === 3) {
-             const resultadoQuatro = quantidadeDeIngressos * 330;
-            console.log(resultadoQuatro);
+             if (tipoDeJogo === "IN" && etapaDoJogo === "DT" && categoriaDoJogo === 3) {
+             const resultadoTreze = (quantidadeDeIngressos * 330) * 4.1;
+             console.log(resultadoTreze);
             } else {
-              if (tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoriaDoJogo === 2) {
-               const resultadoCinco = quantidadeDeIngressos * 440;
-               console.log(resultadoCinco);
+              if (tipoDeJogo === "IN" && etapaDoJogo === "DT" && categoriaDoJogo === 2) {
+               const resultadoCatorze = (quantidadeDeIngressos * 440) * 4.1;
+               console.log(resultadoCatorze);
               } else {
-               if (tipoDeJogo === "DO" && etapaDoJogo === "DT" && categoriaDoJogo === 1) {
-               const resultadoSeis = quantidadeDeIgressos *660;
-               console.log(resultadoSeis);
+               if (tipoDeJogo === "IN" && etapaDoJogo === "DT" && categoriaDoJogo === 1) {
+               const resultadoQuinze = (quantidadeDeIngressos * 660) * 4.1;
+               console.log(resultadoQuinze);
               } else {
-               if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoriaDoJogo === 3) {
-                 const resultadoDois = quantidadeDeIngressos * 550;
-                 console.log(resultadoDois);
+               if (tipoDeJogo === "IN" && etapaDoJogo === "SF" && categoriaDoJogo === 3) {
+                 const resultadoDezesseis = (quantidadeDeIngressos * 5500) * 4.1;
+                 console.log(resultadoDezesseis);
                 } else {
-                 if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoriaDoJogo === 2) {
-                 const resultadoTres = quantidadeDeIgressos * 880;
-                 console.log(resultadoTres);
+                 if (tipoDeJogo === "IN" && etapaDoJogo === "SF" && categoriaDoJogo === 2) {
+                 const resultadoDezessete = (quantidadeDeIngressos * 880) * 4.1;
+                 console.log(resultadoDezessete);
                 } else {
-                 if (tipoDeJogo === "DO" && etapaDoJogo === "SF" && categoriaDoJogo === 1) {
-                 const resultadoQuatro = quantidadeDeIngressos * 1320;
-                 console.log(resultadoQuatro);
-                 }
-               }
-             }
-           }
-         }
-       }
-     }
-   }
- }
- */
+                 if (tipoDeJogo === "IN" && etapaDoJogo === "SF" && categoriaDoJogo === 1) {
+                 const resultadoDezoito = (quantidadeDeIngressos * 1320) * 4.1;
+                 console.log(resultadoDezoito);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+          }
+        }
+      }
+    }
+  }
+}
+  }
+}
